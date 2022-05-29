@@ -1,32 +1,16 @@
-# https://leetcode.cn/problems/product-of-array-except-self/
-
 class Solution:
-    def productExceptSelf(self, nums: List[int]) -> List[int]:
-        
-        # contruct preProd array
-        p = 1
-        preProd = []
-        for n in nums:
-            p*=n
-            preProd.append(p)
-        # print(preProd)
+    def maxArea(self, height: List[int]) -> int:
 
-        # contruct postProd array
-        postProd = []
-        p=1 
-        for n in reversed(nums):
-            p*=n
-            postProd.append(p)
-        postProd = postProd[::-1]
-        # print(postProd)
+        left = 0
+        right = len(height)-1
+        ans = 0
 
-
-        ans = []
-        for i in range(len(nums)):
-            if i == 0:
-                ans.append(postProd[i+1])
-            elif i == len(nums)-1:
-                ans.append(preProd[i-1])
+        while left < right:
+            area = (right-left) * min(height[right],height[left]) 
+            ans = max(ans, area)
+            
+            if height[left] < height[right]:
+                left+=1
             else: 
-                ans.append(preProd[i-1] * postProd[i+1])
+                right-=1
         return ans
