@@ -16,5 +16,5 @@ https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questio
 
 
  - Dynamic Programming
- 	 - [x] [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+ 	 - [ ] [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 	 - [x] [322. Coin Change](https://leetcode.com/problems/coin-change/)
