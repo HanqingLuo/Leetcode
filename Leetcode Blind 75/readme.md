@@ -13,3 +13,8 @@ https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questio
 	 - [x] [15. 3 Sum](https://leetcode.com/problems/3sum/)
 	 - [x] [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
  - Binary Search 
+
+
+ - Dynamic Programming
+ 	 - [x] [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+	 - [x] [322. Coin Change](https://leetcode.com/problems/coin-change/)
