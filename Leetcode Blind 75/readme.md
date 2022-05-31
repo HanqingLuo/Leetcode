@@ -7,7 +7,7 @@ https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questio
 	 - [x] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 	 - [x] [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) 
 	 - [x] [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
-	 - [x] [53. Maximum Subarray] https://leetcode.com/problems/maximum-subarray/
+	 - [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 	 - [ ] [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 	 - [ ] [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 	 - [ ] [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
