@@ -3,17 +3,17 @@ https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questio
 **LeetCode Blind 75** 
 
 - Array
-	- [x] [1.Two Sum](https://leetcode.com/problems/two-sum/)
+	- [x] [1.Two Sum](https://leetcode.com/problems/two-sum/) - HashTable
 	- [x] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 	- [x] [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) 
-	- [x] [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
+	- [x] [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
+	- [x] [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) - Binary Search
 	- [ ] [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 	- [x] [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-	- [x] [15. 3 Sum](https://leetcode.com/problems/3sum/)
+	- [x] [15. 3 Sum](https://leetcode.com/problems/3sum/) - HashTable
 	- [x] [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
-- Binary Search 
- 	- [x] [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+- Binary Operations
  	- [x] [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
  	- [ ] [338. Counting Bits](https://leetcode.com/problems/counting-bits/)
  	- [ ] [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)
