@@ -14,6 +14,11 @@ https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questio
 
 - Binary Search 
  	- [x] [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+ 	- [ ] [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+ 	- [ ] [338. Counting Bits](https://leetcode.com/problems/counting-bits/)
+ 	- [ ] [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+ 	- [ ] [268. Missing Number](https://leetcode.com/problems/missing-number/)
+ 	- [ ] [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
 
 - Sliding Window
 	- [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
