@@ -1,5 +1,7 @@
+from typing import List, Tuple, Dict, TextIO
+
 class Solution:
-    def coinChange(self, coins: List[int], amount: int) -> int:
+    def coinChange(coins: List[int], amount: int) -> int:
         
         # Solution 1: DP
         # edge case
@@ -15,3 +17,11 @@ class Solution:
                 if a - c >= 0:
                     dp[a] = min(dp[a], dp[a-c]+1)
         return dp[amount] if dp[amount] !=  float('inf') else -1
+
+    
+# Testing code
+print(Solution.coinChange([2,3,5,7], 27)) # Output: 5
+print(Solution.coinChange([2,3,5,7], 99)) # Output: 15
+print(Solution.coinChange([2,3,5,7], 171)) # Output: 25
+print(Solution.coinChange([2,3,5,7], 1028)) # Output: 148
+print(Solution.coinChange([2,3,5,7], 10086)) # Output: 1442
