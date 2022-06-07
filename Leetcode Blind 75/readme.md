@@ -21,6 +21,7 @@ https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questio
 
 - Linked List
 	- [x] [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+	- [x] [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 
 - Sliding Window
 	- [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
