@@ -4,19 +4,20 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        dummy_head = prev = ListNode(-1, list1)
-        
-        while list1 and list2: 
-            if list1.val <= list2.val:
-                prev.next = list1
-                list1=list1.next
-            else:
-                prev.next = list2
-                list2=list2.next
-            prev = prev.next
-        prev.next = list1 if list1 is not None else list2 
+    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
+        dummy_head = ListNode(-1, head)
+        left = dummy_head
+        right = head 
+
+        while n > 0 and right: 
+            right = right.next
+            n-=1
+
+        while right:
+                right = right.next
+                left = left.next
+
+        # delete
+        left.next = left.next.next
         return dummy_head.next
-                
-                
         
