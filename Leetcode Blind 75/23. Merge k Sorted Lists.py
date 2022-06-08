@@ -4,7 +4,22 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+        # edge case: 
+        if not lists or len(lists) == 0:
+            return None
+        
+        while len(lists)>1: # at least two lists
+            mergedList = []
+            for i in range(0, len(lists), 2): 
+                list1 = lists[i]
+                list2 = lists[i+1] if i+1 < len(lists) else None 
+                mergedList.append(self.mergeTwoLists(list1, list2))
+                # print(mergedList) -- for debug 
+            lists = mergedList # shrank lists
+        return lists[0]
+        
+    def mergeTwoLists(self, list1, list2):
         dummy_head = prev = ListNode(-1, list1)
         
         while list1 and list2: 
@@ -17,6 +32,3 @@ class Solution:
             prev = prev.next
         prev.next = list1 if list1 is not None else list2 
         return dummy_head.next
-                
-                
-        
