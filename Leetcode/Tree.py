@@ -44,4 +44,13 @@ class Solution:
         right = self.maxDepth(root.right)
         return max(left, right) + 1
 
+    # 226. 翻转二叉树
+    def invertTree(self, root: TreeNode) -> TreeNode:
+        if not root: return None
+        root.left, root.right = root.right, root.left # 在本节点的操作，左右孩子互换
+        # 已经搞定的左右孩子，使用递归的思路写出函数表达式。下面两句的顺序并不重要
+        self.invertTree(root.right) 
+        self.invertTree(root.left)
+        return root
+
     
