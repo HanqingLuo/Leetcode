@@ -27,6 +27,10 @@ https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questio
 	- [x] [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) - Reverse 2nd half of linked list
 	- [x] [143. Reorder List](https://leetcode.com/problems/reorder-list/) 
 
+- Tree
+	- [x] [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+	- [x] [100. Same Tree](https://leetcode.com/problems/same-tree/)
+
 - Sliding Window
 	- [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
