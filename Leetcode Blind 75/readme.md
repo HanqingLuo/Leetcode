@@ -32,6 +32,7 @@ https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questio
 	- [x] [100. Same Tree](https://leetcode.com/problems/same-tree/)
 	- [x] [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 	- [x] [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+	- [ ] [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 	- [ ] [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 
 - Sliding Window
