@@ -5,28 +5,28 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    # 二叉树前序遍历
+    # 二叉树前序遍历 (Leetcode 144)
     def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:   
         if not root:
             return []
         else:
             return [root.val] + self.preorderTraversal(root.left) + self.preorderTraversal(root.right)
     
-    # 二叉树中序遍历
+    # 二叉树中序遍历 (Leetcode 94)
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:   
         if not root:
             return []
         else:
             return self.inorderTraversal(root.left) + [root.val] + self.inorderTraversal(root.right)
     
-    # 二叉树后序遍历
+    # 二叉树后序遍历 (Leetcode 145)
     def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:   
         if not root:
             return []
         else:
             return self.postorderTraversal(root.left) + self.postorderTraversal(root.right) + [root.val]
 
-    # 相同的二叉树
+    # 相同的二叉树 (Leetcode 100)
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool: 
         if not p and not q: 
             return True
