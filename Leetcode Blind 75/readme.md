@@ -31,6 +31,7 @@ https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questio
 	- [x] [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 	- [x] [100. Same Tree](https://leetcode.com/problems/same-tree/)
 	- [x] [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+	- [x] [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 
 - Sliding Window
 	- [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
