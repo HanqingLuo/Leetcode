@@ -37,4 +37,11 @@ class Solution:
         else: 
             return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
 
+    # 104. 二叉树的最大深度
+    def maxDepth(self, root: Optional[TreeNode]) -> int:
+        if not root: return 0
+        left = self.maxDepth(root.left)
+        right = self.maxDepth(root.right)
+        return max(left, right) + 1
+
     
