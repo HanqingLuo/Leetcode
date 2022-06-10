@@ -54,5 +54,23 @@ class Solution:
         return root
 
     # 102. 二叉树的层序遍历
+    def levelOrder(self, root: TreeNode) -> List[List[int]]:
+        ans = []
+        q = collections.deque()
+        q.append(root)
+
+        while q: # run BFS while q is not empty
+            qLen = len(q) 
+            level = [] 
+            for i in range(qLen):
+                node = q.popleft()
+                if node: # node could be None
+                    level.append(node.val)
+                    q.append(node.left)
+                    q.append(node.right)
+            if level: # we dont wanna None level
+                ans.append(level)
+        return ans
+
 
     
