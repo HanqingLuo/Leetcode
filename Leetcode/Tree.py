@@ -80,6 +80,17 @@ class Solution:
             return validate(node.left,low,node.val) and validate(node.right,node.val,high)
         return validate(root)
             
+
+    # 235. 二叉搜索树的最近公共祖先
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        node = root
+        while True:
+            if p.val > node.val and q.val > node.val:
+                node = node.right
+            elif p.val < node.val and q.val < node.val:
+                node = node.left
+            else: 
+                return node
             
             
             
