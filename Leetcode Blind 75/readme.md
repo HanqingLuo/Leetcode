@@ -34,6 +34,7 @@ https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questio
 	- [x] [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 	- [x] [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 	- [x] [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+	- [x] [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 	- [ ] [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 
 - Sliding Window
