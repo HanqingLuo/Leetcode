@@ -27,15 +27,12 @@ class Solution:
             return self.postorderTraversal(root.left) + self.postorderTraversal(root.right) + [root.val]
 
     # 相同的二叉树 (Leetcode 100)
-    def isSameTree(self, p: TreeNode, q: TreeNode) -> bool: 
+    def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
         if not p and not q: 
             return True
-        elif not p or not q: 
-            return False
-        elif p.val != q.val: 
-            return False
-        else: 
-            return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
+        if p and q and p.val == q.val: 
+            return (self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right))
+        return False
 
     # 104. 二叉树的最大深度
     def maxDepth(self, root: Optional[TreeNode]) -> int:
@@ -91,6 +88,13 @@ class Solution:
                 node = node.left
             else: 
                 return node
+    # 572. Subtree of Another Tree
+    def isSubtree(self, root: TreeNode, subRoot: TreeNode) -> bool:
+        if not subRoot: return True
+        if not root: return False
+
+        if self.isSameTree(root, subRoot): return True
+        return (self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot))
             
             
             
